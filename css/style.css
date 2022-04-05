@@ -1,0 +1,150 @@
+html{
+    background-color: #D3D3D3;
+    margin: 20px;
+}
+
+header{
+    border: solid 5px blue;
+
+}
+
+nav li{
+    display: inline-block;
+    margin: 2px;
+    padding: 5px;
+    border: solid 2px #000000;
+    font-weight: bold;
+}
+
+.active{
+    background-color: white;
+}
+
+h1{
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+body{
+    border: #000000 solid 10px;
+    padding: 10px;
+}
+
+p{
+    margin: auto;
+    font-size: 30;
+    line-height: 30px;
+    text-align: center;
+}
+
+img{
+    border: solid 8px white;
+    border-radius: 15%;
+    margin: 10px;
+    min-height: 200px;
+    max-height: 500px;
+    min-width: 300px;
+    max-width: 700px;
+    padding: 0px;
+    
+}
+
+img:hover{
+    border: double 10px #4682b4;
+}
+
+img:nth-child(3n){
+    border: dashed 20px red;
+}
+
+footer{
+    background-color: black;
+    padding: 10px 15px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.top10NBA{
+    display: grid;
+    grid-template-columns: 3fr;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.top10NBA > div p, #main1{
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.WNBA{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.WNBA img{
+    min-height: 200px;
+    max-height: 400px;
+    max-width: 700px;
+    min-width: 380px;
+}
+
+.NBAlate1stround{
+    text-align: center;
+}
+
+.intro, .drafthistory{
+    text-align: center;
+}
+
+@keyframes mymove {
+    from {width: 15px; opacity: 0;}
+    to {width: 200px; opacity: 1;}
+}
+
+#logo{
+    animation-name: mymove;
+    animation-duration: 5s;
+}
+
+@media (prefers-reduced-motion) {
+    #logo{
+        animation: none;
+    }
+}
+
+i{
+    color: white;
+}
+
+a.skip{
+    display: none;
+}
+
+body{
+    background-image:url('../images/BasketballCourtImage.jpeg');
+}
+
+form{
+    padding: 15px;
+    border: solid 5px black;
+    margin: 10px;
+}
+
+legend{
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+}
+
